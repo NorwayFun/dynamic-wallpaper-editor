@@ -1,0 +1,567 @@
+# Georgian translation for dynamic-wallpaper-editor.
+# Copyright (C) 2026 dynamic-wallpaper-editor's authors.
+# This file is distributed under the same license as the dynamic-wallpaper-editor package.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dynamic-wallpaper-editor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-10 18:35+0200\n"
+"PO-Revision-Date: 2026-05-16 12:02+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+#: data/com.github.maoschanz.DynamicWallpaperEditor.desktop.in src/ui/window.ui
+#: src/main.py
+msgid "Dynamic Wallpaper Editor"
+msgstr "დინამიკური ფონის სურათების რედაქტორი"
+
+#. Translators: this should stay around 35 and 45 characters.
+#. If it's not possible, remove "or edit", or even "create or edit".
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in src/main.py
+msgid "Create or edit dynamic wallpapers for GNOME"
+msgstr "შექმენით და ჩაასწორეთ დინამიკური ფონის სურათები GNOME-ისთვის"
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+msgid ""
+"Dynamic Wallpaper Editor is a simple utility to create or edit dynamic "
+"wallpapers for the GNOME desktop."
+msgstr ""
+"დინამიკური ფონის სურათების რედაქტორი მარტივი პროგრამაა დინამიკური ფონის "
+"სურათების შესაქმნელად და ჩასასწორებლად სამუშაო გარემოსთვის GNOME."
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+msgid ""
+"The duration of each picture and each transition can be set separately or "
+"globally. The wallpaper will fit the daylight if its total duration is "
+"exactly 24 hours."
+msgstr ""
+"თითოეული სურათის ხანგრძლივობის და გადასვლის დაყენება ცალ-ცალკე, ან "
+"გლობალურად შეგიძლიათ. ფონის სურათი დაემთხვევა დღის დროს, თუ მისი ჯამური "
+"ხანგრძლივობა ზუსტად 24 საათია."
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+msgid "Version 3.0 greatly improves performances."
+msgstr "ვერსია 3.0-ში წარმადობა შესამჩნევად გაიზარდა."
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+msgid "An editing history is now available to undo or redo your changes."
+msgstr ""
+"თქვენი ცვლილებების გასაუქმებლად, ან დასაბრუნებლად ახლა ხელმისაწვდომია "
+"რედაქტირების ისტორია."
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+msgid ""
+"This version now detects when it runs in a flatpak sandbox, and tells you "
+"when a feature isn't available because of it (instead of silently doing "
+"nothing)."
+msgstr ""
+"ამ ვერსიას ახლა შეუძლია, დაადგინოს, როცა ის გაშვებულია flatpak-ის სენდბოქსში "
+"და გეტყვით, რომ ამის გამო ესა, თუ ის ფუნქცია ხელმისაწვდომი არაა (ჩუმად "
+"არაფრის კეთების მაგიერ)."
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+msgid ""
+"The help manual has been updated to tell you workarounds about this problem."
+msgstr ""
+"დახმარების სახელმძღვანელო განახლდა, რომ გითხრათ, როგორ აუაროთ გვერდი ამ "
+"პრობლემას."
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+msgid "An new icon is available, following the recent GNOME guidelines."
+msgstr ""
+"ხელმისაწვდომია ახალი ხატულა, რომელიც GNOME-ის უახლეს სტანდარტებს მიჰყვება."
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+msgid ""
+"The images can now be reordered, previewed, or deleted using keyboard "
+"shortcuts."
+msgstr ""
+"ახლა შეგიძლიათ, გადაადგილება, გადახედვა და წაშლა კლავიატურის მალსახმობებით."
+
+#. caption for screenshot 1
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+msgid "An example of a wallpaper changing with daylight"
+msgstr "დღის სინათლის მიმყოლი ფონის სურათის მაგალითი"
+
+#. caption for screenshot 2
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+msgid "The grid layout"
+msgstr "ბადის განლაგება"
+
+#. That's my name, don't translate it
+#: data/com.github.maoschanz.DynamicWallpaperEditor.appdata.xml.in
+msgid "Romain F. T."
+msgstr "Romain F. T."
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.desktop.in
+msgid "Create or edit dynamic wallpapers for GNOME."
+msgstr "შექმენით და ჩაასწორეთ დინამიკური ფონის სურათები GNOME-ისთვის."
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.desktop.in
+msgid "Wallpaper;Daylight;XML;"
+msgstr "Wallpaper;Daylight;XML;ფონის სურათი;დღის სინათლე;"
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.desktop.in src/ui/menus.ui
+#: src/ui/shortcuts.ui
+msgid "New Window"
+msgstr "ახალი ფანჯარა"
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.gschema.xml
+msgid "Use a grid or a list"
+msgstr "ბადის, ან სიის გამოყენება"
+
+#: data/com.github.maoschanz.DynamicWallpaperEditor.gschema.xml
+msgid "Display the pictures using a grid of thumbnails, or a list."
+msgstr "სურათების ჩვენება მინიატურების ბადის, ან სიის სახით."
+
+#: src/ui/menus.ui
+msgid "List"
+msgstr "ჩამონათვალი"
+
+#: src/ui/menus.ui
+msgid "Grid"
+msgstr "ბადე"
+
+#: src/ui/menus.ui
+msgid "Keyboard Shortcuts"
+msgstr "კლავიატურის მალსახმობები"
+
+#: src/ui/menus.ui
+msgid "Help"
+msgstr "დახმარება"
+
+#: src/ui/menus.ui
+msgid "About"
+msgstr "შესახებ"
+
+#: src/ui/menus.ui src/ui/shortcuts.ui src/window.py
+msgid "Save"
+msgstr "შენახვა"
+
+#: src/ui/menus.ui src/ui/shortcuts.ui src/window.py
+msgid "Save as…"
+msgstr "შენახვა, როგორც…"
+
+#: src/ui/menus.ui src/ui/shortcuts.ui
+msgid "Set as wallpaper"
+msgstr "ფონის სურათად დაყენება"
+
+#: src/ui/menus.ui
+msgid "Wallpaper adjustment"
+msgstr "ფონის სურათის სწორება"
+
+#: src/ui/menus.ui
+msgid "Mosaic"
+msgstr "მოზაიკა"
+
+#: src/ui/menus.ui
+msgid "Centered"
+msgstr "შუაზე გასწორებული"
+
+#: src/ui/menus.ui
+msgid "Scaled"
+msgstr "გადიდებული"
+
+#: src/ui/menus.ui
+msgid "Stretched"
+msgstr "გაწელილი"
+
+#: src/ui/menus.ui
+msgid "Zoom"
+msgstr "მასშტაბი"
+
+#: src/ui/menus.ui
+msgid "Spanned"
+msgstr "მოცვა"
+
+#: src/ui/menus.ui
+msgid "Same duration for all pictures"
+msgstr "იგივე ხანგრძლივობა ყველა სურათისთვის"
+
+#: src/ui/menus.ui
+msgid "Fit the daylight"
+msgstr "დღის განათებაში ჩატევა"
+
+#: src/ui/menus.ui
+msgid "Automatically set a total of 24 hours"
+msgstr "ავტომატურად დაყენება 24 საათით"
+
+#: src/ui/menus.ui
+msgid "Use durations instead of times"
+msgstr "ხანგრძლივობების გამოყენება დროის მაგიერ"
+
+#: src/ui/picture_menu.ui
+msgid "Replace with…"
+msgstr "ჩანაცვლება რით…"
+
+#: src/ui/picture_menu.ui src/ui/shortcuts.ui
+msgid "View picture"
+msgstr "სურათის ნახვა"
+
+#: src/ui/picture_menu.ui
+msgid "View containing directory"
+msgstr "შემცველი საქაღალდის ნახვა"
+
+#: src/ui/picture_menu.ui
+msgid "Move to first position"
+msgstr "პირველ მდებარეობაზე გადატანა"
+
+#: src/ui/picture_menu.ui src/ui/shortcuts.ui
+msgid "Move up"
+msgstr "აწევა"
+
+#: src/ui/picture_menu.ui src/ui/shortcuts.ui
+msgid "Move down"
+msgstr "ჩამოწევა"
+
+#: src/ui/picture_menu.ui
+msgid "Move to last position"
+msgstr "ბოლო მდებარეობაზე გადატანა"
+
+#: src/ui/picture_row.ui src/ui/picture_thumbnail.ui src/ui/window.ui
+msgid "Time"
+msgstr "დრო"
+
+#: src/ui/picture_row.ui src/ui/picture_thumbnail.ui
+msgid ""
+"Time (in seconds) of this image. This doesn't include the time of the "
+"transition."
+msgstr "ამ სურათის დრო (წამებში). ეს არ შეიცავს გადასვლის დროს."
+
+#: src/ui/picture_row.ui src/ui/picture_thumbnail.ui src/ui/window.ui
+msgid "Transition"
+msgstr "გადასვლა"
+
+#: src/ui/picture_row.ui src/ui/picture_thumbnail.ui
+msgid ""
+"Time (in seconds) of the transition between this image and the next one."
+msgstr "ამ გამოსახულებასა და შემდეგს შორის გადასვლის დრო (წამებში)."
+
+#: src/ui/picture_row.ui src/ui/picture_thumbnail.ui src/ui/shortcuts.ui
+msgid "Delete"
+msgstr "წაშლა"
+
+#: src/ui/picture_thumbnail.ui
+msgid "Duration"
+msgstr "ხანგრძლივობა"
+
+#: src/ui/start_time.ui
+msgid "This is useful when the total duration is 24 hours."
+msgstr "ეს გამოსადეგია მაშინ, როცა სრული ხანგრძლივობა 24 საათია."
+
+#: src/ui/start_time.ui
+msgid "Start time of the wallpaper"
+msgstr "ფონის სურათის დაწყების დრო"
+
+#: src/ui/start_time.ui
+msgid "Year"
+msgstr "წელი"
+
+#: src/ui/start_time.ui
+msgid "Month"
+msgstr "თვე"
+
+#: src/ui/start_time.ui
+msgid "Day"
+msgstr "დღე"
+
+#: src/ui/start_time.ui
+msgid "Hour"
+msgstr "საათი"
+
+#: src/ui/start_time.ui
+msgid "Minute"
+msgstr "წუთი"
+
+#: src/ui/start_time.ui
+msgid "Second"
+msgstr "წამი"
+
+#: src/ui/shortcuts.ui
+msgid "General"
+msgstr "ზოგადი"
+
+#: src/ui/shortcuts.ui
+msgid "Close the current window"
+msgstr "მიმდინარე ფანჯრის დახურვა"
+
+#: src/ui/shortcuts.ui
+msgid "Quit all windows"
+msgstr "ყველა ფანჯრიდან გასვლა"
+
+#: src/ui/shortcuts.ui
+msgid "Show shortcuts"
+msgstr "მალსახმობების ჩვენება"
+
+#: src/ui/shortcuts.ui
+msgid "Show help"
+msgstr "დახმარების ჩვენება"
+
+#: src/ui/shortcuts.ui
+msgid "Wallpaper"
+msgstr "ფონის სურათი"
+
+#: src/ui/shortcuts.ui src/ui/window.ui
+msgid "Open an existing dynamic wallpaper"
+msgstr "არსებული დინამიკური ფონის სურათის გაწყდა"
+
+#: src/ui/shortcuts.ui
+msgid "History"
+msgstr "ისტორია"
+
+#: src/ui/shortcuts.ui src/ui/window.ui
+msgid "Undo"
+msgstr "გაუქმება"
+
+#: src/ui/shortcuts.ui src/ui/window.ui
+msgid "Redo"
+msgstr "გამეორება"
+
+#: src/ui/shortcuts.ui
+msgid "Pictures management"
+msgstr "სურათების მართვა"
+
+#: src/ui/shortcuts.ui src/ui/window.ui src/window.py
+msgid "Add pictures"
+msgstr "სურათების დამატება"
+
+#: src/ui/shortcuts.ui src/ui/window.ui src/window.py
+msgid "Add a folder"
+msgstr "საქაღალდის დამატება"
+
+#: src/ui/shortcuts.ui src/ui/window.ui
+msgid "Find a picture"
+msgstr "სურათის პოვნა"
+
+#: src/ui/shortcuts.ui
+msgid "Selected picture"
+msgstr "არჩეული სურათი"
+
+#: src/ui/window.ui src/window.py
+msgid "Open"
+msgstr "გახსნა"
+
+#: src/ui/window.ui
+msgid "More actions"
+msgstr "მეტი ქმედება"
+
+#: src/ui/window.ui
+msgid "Save the file and apply it as your wallpaper"
+msgstr "ფაილის შენახვა და ფონის სურათად გამოყენება"
+
+#: src/ui/window.ui
+msgid "Save and apply"
+msgstr "შენახვა და გადატარება"
+
+#: src/ui/window.ui
+msgid "Manage how you set the durations of your pictures"
+msgstr "მართეთ, როგორ აყენებთ თქვენი სურათების ხანგრძლივობას"
+
+#: src/ui/window.ui
+msgid "Durations options"
+msgstr "ხანგრძლივობების მორგება"
+
+#: src/ui/window.ui
+msgid "Set the exact start time of the wallpaper"
+msgstr "ფონის სურათის დაწყების ზუსტი დროის დაყენება"
+
+#: src/ui/window.ui
+msgid "Sort by name"
+msgstr "დალაგება სახელით"
+
+#: src/ui/window.ui
+msgid "Error starting the application, please report this bug."
+msgstr "აპლიკაციის გაშვების შეცდომა. მოგვწერეთ ამის შესახებ."
+
+#: src/ui/window.ui
+msgid "Automatic fix"
+msgstr "ავტომატური გასწორება"
+
+#: src/ui/window.ui
+msgid "Set durations for a total of 24 hours"
+msgstr "ჯამურად 24 საათის ხანგრძლივობის დაყენება"
+
+#: src/ui/window.ui
+msgid "Duration of each picture (seconds)"
+msgstr "ხანგრძლივობა თითოეული სურათისთვის (წმ)"
+
+#: src/ui/window.ui
+msgid "Duration of each transition (seconds)"
+msgstr "თითოეული გადასვლის ხანგრძლივობა (წმ)"
+
+#: src/data_model.py src/window.py
+msgid "This dynamic wallpaper is corrupted"
+msgstr "ეს დინამიკური ფონის სურათი დაზიანებულია"
+
+#: src/data_model.py
+msgid "This XML file doesn't describe a valid dynamic wallpaper"
+msgstr "ეს XML ფაილი სწორ დინამიკურ ფონის სურათს არ შეიცავს"
+
+#: src/data_model.py
+#, python-format
+msgid "Unknown element: %s"
+msgstr "უცნობი ელემენტი: %s"
+
+#: src/main.py
+msgid "Tell the version of the app"
+msgstr "აპლიკაციის ვერსიის გამოტანა"
+
+#: src/main.py
+msgid "Open a new window"
+msgstr "ახალი ფანჯრის გახსნა"
+
+#: src/main.py
+msgid "Error opening this file."
+msgstr "ამ ფაილის გახსნის შეცდომა."
+
+#: src/main.py
+#, python-format
+msgid "Did you mean %s ?"
+msgstr "გულისხმობდით %s-ს?"
+
+#: src/main.py
+msgid "Report bugs or ideas"
+msgstr "შეცდომების ან იდეების მიწერა"
+
+#: src/main.py
+msgid "translator-credits"
+msgstr "ეკატერინე პაპავა"
+
+#: src/main.py
+msgid "This feature isn't available with Flatpak."
+msgstr "ეს ფუნქცია Flatpak-ში ხელმისაწვდომი არაა."
+
+#: src/main.py
+msgid ""
+"Don't worry, your XML file can still be set as your wallpaper from GNOME "
+"Tweaks."
+msgstr ""
+"ნუ შეწუხდებით. თქვენი XML ფაილის დაყენება მაინც შეიძლება GNOME-ის "
+"დაწვრილებით მორგების ფანჯრიდან."
+
+#: src/main.py
+msgid "This desktop environment isn't supported."
+msgstr "ეს სამუშაო გარემო მხარდაჭერილი არაა."
+
+#: src/misc.py
+msgid "Dynamic wallpapers (XML)"
+msgstr "დინამიკური ფონის სურათები (XML)"
+
+#: src/misc.py
+msgid "All pictures"
+msgstr "ყველა სურათი"
+
+#: src/misc.py
+msgid "PNG images"
+msgstr "PNG გამოსახულებები"
+
+#: src/misc.py
+msgid "JPEG images"
+msgstr "JPEG გამოსახულებები"
+
+#: src/misc.py
+#, python-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s საათი"
+msgstr[1] "%s საათი"
+
+#: src/misc.py
+#, python-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s წუთი"
+msgstr[1] "%s წუთი"
+
+#: src/misc.py
+#, python-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s წამი"
+msgstr[1] "%s წამი"
+
+#: src/picture_widget.py
+msgid ""
+"This picture might exist, but it isn't in your home folder so I can't see it."
+msgstr ""
+"ეს სურათი შეიძლება, არსებობს, მაგრამ ის თქვენს საწყის საქაღალდეში არაა, ასე "
+"რომ, მას ვერ ვხედავ."
+
+#: src/picture_widget.py
+msgid "This picture doesn't exist"
+msgstr "ეს სურათი არ არსებობს"
+
+#: src/picture_widget.py
+#, python-brace-format
+msgid "This picture lasts from {0} to {1}"
+msgstr "ეს სურათი გრძელდება {0}-დან {1}-მდე"
+
+#: src/picture_widget.py
+#, python-brace-format
+msgid "The transition to the next picture lasts from {0} to {1}"
+msgstr "შემდეგ სურათზე გადასვლა გრძელდება {0}-დან {1}-მდე"
+
+#: src/view.py
+msgid "Add new pictures, or open an existing XML file."
+msgstr "ახალი სურათების დამატება ან არსებული XML ფაილის გახსნა."
+
+#: src/view.py
+msgid "Drag-and-drop pictures to reorder them."
+msgstr "გადალაგებისთვის გადაათრიეთ და დაყარეთ სურათები."
+
+#: src/window.py
+#, python-format
+msgid "%s picture"
+msgid_plural "%s pictures"
+msgstr[0] "%s სურათი"
+msgstr[1] "%s სურათი"
+
+#: src/window.py
+#, python-format
+msgid "Total time: %s second"
+msgid_plural "Total time: %s seconds"
+msgstr[0] "ჯამური დრო: %s წამი"
+msgstr[1] "ჯამური დრო: %s წამი"
+
+#: src/window.py
+msgid "The total duration isn't 24 hours."
+msgstr "სრული ხანგრძლივობა 24 საათი არაა."
+
+#: src/window.py
+msgid "There are unsaved modifications to your wallpaper."
+msgstr "თქვენს ფონის სურათში არსებობს შეუნახავი ცვლილებები."
+
+#: src/window.py
+#, python-format
+msgid "There are unsaved modifications to %s"
+msgstr "%s-ზე არსებობს შეუნახავი ცვლილებები"
+
+#: src/window.py
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: src/window.py
+msgid "Discard"
+msgstr "მოცილება"
+
+#: src/window.py
+msgid "Loading…"
+msgstr "ჩატვირთვა…"
+
+#: src/window.py
+#, python-format
+msgid "Replace %s"
+msgstr "%s-ის ჩანაცვლება"
+
+#: src/window.py
+msgid "Untitled"
+msgstr "უსათაურო"
